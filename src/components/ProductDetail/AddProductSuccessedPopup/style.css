@@ -1,0 +1,35 @@
+.add-product-successed-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-product-successed-modal {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 3.6rem 2.4rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.2rem;
+}
+.add-product-successed-icon {
+    margin-bottom: 2rem;
+}
+.add-product-successed-text > p {
+    font-size: 1.4rem;
+    margin: 0;
+}
+.ratio-64x64 {
+    width: 64px;
+    height: 64px;
+    aspect-ratio: 1/1;
+}
+.w-100 {
+    width: 100%;
+}
